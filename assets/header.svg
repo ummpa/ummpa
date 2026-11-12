@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" role="img" aria-label="ummpa — frontend developer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" role="img" aria-label="ummpa — dev">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#0B1F1A"/>
@@ -70,7 +70,7 @@
       <text class="bar" x="415" y="72" text-anchor="middle">ummpa — zsh</text>
 
       <text class="mono l"    x="108" y="124"><tspan class="p">$ </tspan><tspan class="cmd">whoami</tspan></text>
-      <text class="mono l l2" x="108" y="154"><tspan class="out">ummpa — frontend developer</tspan></text>
+      <text class="mono l l2" x="108" y="154"><tspan class="out">ummpa — dev</tspan></text>
       <text class="mono l l3" x="108" y="192"><tspan class="p">$ </tspan><tspan class="cmd">cat about.txt</tspan></text>
       <text class="mono l l4" x="108" y="222"><tspan class="out">안녕하세요, 어서오세요, 좋은 하루입니다</tspan></text>
       <text class="mono l l5" x="108" y="260"><tspan class="p">$ </tspan><tspan class="cmd">git commit -m </tspan><tspan class="str">"merry christmas"</tspan><tspan class="cur"> _</tspan></text>

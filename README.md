@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="./assets/header.svg" alt="ummpa — frontend developer. 안녕하세요, 어서오세요, 좋은 하루입니다" width="100%" />
+<img src="./assets/header.svg" alt="ummpa — dev. 안녕하세요, 어서오세요, 좋은 하루입니다" width="100%" />
 
 <br /><br />
 
 React와 TypeScript로 웹과 앱을 만듭니다.<br />
-작은 디테일까지 챙기는 프론트엔드 개발자가 되려고 합니다.
+작은 디테일까지 챙기는 개발자가 되려고 합니다.
 
 <br />
 
