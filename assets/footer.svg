@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="100%" role="img" aria-label="Happy Holidays">
+  <defs>
+    <linearGradient id="fsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#16382D"/>
+      <stop offset="100%" stop-color="#0B1F1A"/>
+    </linearGradient>
+    <clipPath id="fr"><rect width="1200" height="90" rx="20"/></clipPath>
+    <style>
+      .t    { font: 600 14px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; letter-spacing: 6px; fill: #F4EFE3; }
+      .line { stroke: #D4B36A; stroke-width: 1; opacity: .7; }
+      .gold { fill: #D4B36A; animation: tw 3s ease-in-out infinite; }
+      .snow { fill: #FFFFFF; animation: fall linear infinite; }
+      @keyframes tw { 0%,100% { opacity: .55 } 50% { opacity: 1 } }
+      @keyframes fall { from { transform: translateY(-10px) } to { transform: translateY(100px) } }
+    </style>
+  </defs>
+  <g clip-path="url(#fr)">
+    <rect width="1200" height="90" fill="url(#fsky)"/>
+    <line class="line" x1="330" y1="45" x2="452" y2="45"/>
+    <text class="t" x="603" y="50" text-anchor="middle">HAPPY HOLIDAYS</text>
+    <line class="line" x1="748" y1="45" x2="870" y2="45"/>
+    <path class="gold" d="M300 35 l2.8 6.6 7.2 .6 -5.4 4.8 1.6 7 -6.2 -3.6 -6.2 3.6 1.6 -7 -5.4 -4.8 7.2 -.6z"/>
+    <path class="gold" d="M900 35 l2.8 6.6 7.2 .6 -5.4 4.8 1.6 7 -6.2 -3.6 -6.2 3.6 1.6 -7 -5.4 -4.8 7.2 -.6z"/>
+    <circle class="snow" cx="90"   r="1.8" opacity=".7" style="animation-duration:7s;animation-delay:-2s"/>
+    <circle class="snow" cx="200"  r="1.3" opacity=".5" style="animation-duration:9s;animation-delay:-5s"/>
+    <circle class="snow" cx="560"  r="1.4" opacity=".5" style="animation-duration:8s;animation-delay:-1s"/>
+    <circle class="snow" cx="680"  r="1.2" opacity=".5" style="animation-duration:10s;animation-delay:-6s"/>
+    <circle class="snow" cx="1010" r="1.3" opacity=".5" style="animation-duration:9s;animation-delay:-3s"/>
+    <circle class="snow" cx="1120" r="1.8" opacity=".7" style="animation-duration:7.5s;animation-delay:-4s"/>
+  </g>
+</svg>
